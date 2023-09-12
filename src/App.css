@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.body {
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-grand-parent {
+  color: red;
+}
+.header-grand-parent .header-parent {
+  color: orange;
+}
+.header-grand-parent .header-parent .header-child {
+  color: yellow;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+  color: cadetblue;
+}
+.button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+.button.isLoading {
+  color: green;
+}
+.button + button2 {
+  margin-top: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hello span {
+  color: blue;
+}
+.hellospan {
+  color: green;
+}
+.hello.span {
+  color: palegreen;
 }
 
-.App-link {
-  color: #61dafb;
+.variable {
+  background-color: azure;
+  width: 100%;
+  color: #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.linear {
+  position: fixed;
+  bottom: 100px;
+  background-image: url("./image/img.jpeg");
+  width: calc(100vh - 200px);
+  height: 200px;
 }
+
+:root {
+  --color-accent: #0080ff;
+  --color-accent-100: rgba(0, 128, 255, 0.07);
+  --color-accent-200: rgba(0, 128, 255, 0.2);
+  --color-accent-300: rgba(0, 128, 255, 0.4);
+}
+
+.linear1 {
+  color: var(--color-accent-100);
+}
+
+.linear2 {
+  color: var(--color-accent-200);
+}
+
+.linear3 {
+  color: var(--color-accent-300);
+}
+
+.annotation {
+  color: blue;
+}
+
+/*# sourceMappingURL=App.css.map */
