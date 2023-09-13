@@ -1,0 +1,12 @@
+.container {
+  background-color: yellow;
+}
+.container h1 {
+  color: red;
+}
+.container p {
+  color: orange;
+}
+.container p span {
+  color: blue;
+}/*# sourceMappingURL=style.css.map */
