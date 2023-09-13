@@ -1,0 +1,31 @@
+p {
+  font: {
+    style: italic;
+    weight: 900;
+    size: 32px;
+  }
+}
+
+.first-btn {
+  background: {
+    color: blue;
+  }
+
+  &:hover {
+    background: {
+      color: red;
+    }
+  }
+}
+
+.second-btn {
+  background: {
+    color: red;
+  }
+
+  &:hover {
+    background: {
+      color: blue;
+    }
+  }
+}
