@@ -1,0 +1,17 @@
+@mixin box-style($bg-color, $font-color: purple) {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $bg-color;
+  color: $font-color;
+}
+
+.one {
+  @include box-style(yellow);
+}
+
+.two {
+  @include box-style(purple, yellow);
+}
