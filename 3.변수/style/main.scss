@@ -1,0 +1,36 @@
+$main-color: orange;
+$font-color: white;
+$hover-color: aqua;
+$btn-width: 100px;
+
+button {
+  &:nth-child(1) {
+    color: $font-color;
+    background-color: $main-color;
+    width: $btn-width;
+
+    &:hover {
+      background-color: $hover-color;
+    }
+  }
+
+  &:nth-child(2) {
+    color: $font-color;
+    background-color: $main-color;
+    width: $btn-width;
+
+    &:hover {
+      background-color: $hover-color;
+    }
+  }
+
+  &:nth-child(3) {
+    color: $font-color;
+    background-color: $main-color;
+    width: $btn-width;
+
+    &:hover {
+      background-color: $hover-color;
+    }
+  }
+}
